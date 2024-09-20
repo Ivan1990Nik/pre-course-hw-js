@@ -9,17 +9,17 @@ let passportMarried = {
   },
 };
 
-console.log(passportMarried);
 
 let newPassportMarried = {
-  name: "Petr",
-  surname: "Petrov",
-  address: {
-    country: "USA",
-    city: "Bobryisk",
-  },
+    name: "Petr",
+    surname: "Petrov",
+    address: {
+        country: "USA",
+        city: "Bobryisk",
+    },
 };
 
 newPassportMarried["married"] = true;
 
+console.log(passportMarried);
 console.log(newPassportMarried);
