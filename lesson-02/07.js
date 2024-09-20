@@ -10,7 +10,6 @@ let passportMarried = {
 };
 
 let newPassportMarried = {
-  married: true,
   name: "Petr",
   surname: "Petrov",
   address: {
@@ -18,6 +17,7 @@ let newPassportMarried = {
     city: "Bobryisk",
   },
 };
+newPassportMarried.married = true;
 
 console.log(passportMarried);
 console.log(newPassportMarried);
