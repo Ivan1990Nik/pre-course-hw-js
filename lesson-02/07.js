@@ -11,7 +11,14 @@ let passportMarried = {
 
 console.log(passportMarried);
 
-let newPassportMarried = passportMarried;
+let newPassportMarried = {
+  name: "Petr",
+  surname: "Petrov",
+  address: {
+    country: "USA",
+    city: "Bobryisk",
+  },
+};
 
 newPassportMarried["married"] = true;
 
