@@ -9,7 +9,7 @@ let passportMarried = {
   },
 };
 
-let newPassportMarried = {
+let passportMarried2 = {
   name: "Petr",
   surname: "Petrov",
   address: {
@@ -20,4 +20,4 @@ let newPassportMarried = {
 newPassportMarried.married = true;
 
 console.log(passportMarried);
-console.log(newPassportMarried);
+console.log(passportMarried2);
